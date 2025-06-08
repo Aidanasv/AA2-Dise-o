@@ -1,0 +1,31 @@
+@keyframes rotateClock {
+    from {
+        transform:rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+
+}
+
+#segundero {
+    animation-duration: 60s;
+    animation-name: rotateClock;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+#minutero {
+    animation-duration: 3600s;
+    animation-name: rotateClock;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+#hora {
+    animation-duration: 43200s;
+    animation-name: rotateClock;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}

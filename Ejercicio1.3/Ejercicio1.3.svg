@@ -1,0 +1,27 @@
+
+<?xml-stylesheet href="style1.3.css" type="text/css"?>
+<svg xmlns = "http://www.w3.org/2000/svg" xmlns:xlink = "http://www.w3.org/1999/xlink" viewBox="-150 -150 300 300">
+    <circle cx = "0" cy = "0" r = "100" style = "fill: # 00ccff;"></circle>
+    <line id="hour-12" x1="0" y1="-90" x2="0" y2="-80" style="stroke:#ffffff;" stroke-width="3"/>
+    <line id="hour-1" x1="45" y1="-77.9" x2="40" y2="-69.3" style="stroke:#ffffff;" stroke-width="3"/>
+    <line id="hour-2" x1="77.9" y1="-45" x2="69.3" y2="-40" style="stroke:#ffffff;" stroke-width="3"/>
+    <line id="hour-3" x1="90" y1="0" x2="80" y2="0" style="stroke:#ffffff;" stroke-width="3"/>
+    <line id="hour-4" x1="77.9" y1="45" x2="69.3" y2="40" style="stroke:#ffffff;" stroke-width="3"/>
+    <line id="hour-5" x1="45" y1="77.9" x2="40" y2="69.3" style="stroke:#ffffff;" stroke-width="3"/>
+    <line id="hour-6" x1="0" y1="90" x2="0" y2="80" style="stroke:#ffffff;" stroke-width="3"/>
+    <line id="hour-7" x1="-45" y1="77.9" x2="-40" y2="69.3" style="stroke:#ffffff;" stroke-width="3"/>
+    <line id="hour-8" x1="-77.9" y1="45" x2="-69.3" y2="40" style="stroke:#ffffff;" stroke-width="3"/>
+    <line id="hour-9" x1="-90" y1="0" x2="-80" y2="0" style="stroke:#ffffff;" stroke-width="3"/>
+    <line id="hour-10" x1="-77.9" y1="-45" x2="-69.3" y2="-40" style="stroke:#ffffff;" stroke-width="3"/>
+    <line id="hour-11" x1="-45" y1="-77.9" x2="-40" y2="-69.3" style="stroke:#ffffff;" stroke-width="3"/>
+
+    <g>
+        <line id="segundero" x1="0" y1="0" x2="0" y2="-80" style="stroke:red; stroke-width:2"/>
+        <line id="minutero" x1="0" y1="0" x2="0" y2="-70" style="stroke:gray; stroke-width: 3"/>
+        <line id="hora" x1="0" y1="0" x2="0" y2="-50" style="stroke:blue; stroke-width: 3"/>
+    </g>
+  
+    <circle cx = "0" cy = "0" r = "3" style ="fill: #ffffff;"></circle>
+
+    <script xlink:href="ejercicio1.3.js" type="application/ecmascript"/>
+</svg>

@@ -1,0 +1,11 @@
+#segundero {
+    transform: rotate(calc(var(--start-seconds)*6deg));
+}
+
+#minutero {
+    transform: rotate(calc(var(--start-minutes)*6deg));
+}
+
+#hora {
+    transform: rotate(calc(var(--start-hour)*30deg));
+}
