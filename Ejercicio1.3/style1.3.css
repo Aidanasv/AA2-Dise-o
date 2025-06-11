@@ -1,3 +1,51 @@
+#hour-12 {
+    transform: rotate(0deg);
+}
+
+#hour-1 {
+    transform: rotate(30deg);
+}
+
+#hour-2 {
+    transform: rotate(60deg);
+}
+
+#hour-3 {
+    transform: rotate(90deg);
+}
+
+#hour-4 {
+    transform: rotate(120deg);
+}
+
+#hour-5 {
+    transform: rotate(150deg);
+}
+
+#hour-6 {
+    transform: rotate(180deg);
+}
+
+#hour-7 {
+    transform: rotate(210deg);
+}
+
+#hour-8 {
+    transform: rotate(240deg);
+}
+
+#hour-9 {
+    transform: rotate(270deg);
+}
+
+#hour-10 {
+    transform: rotate(300deg);
+}
+
+#hour-11 {
+    transform: rotate(330deg);
+}
+
 #segundero {
     transform: rotate(calc(var(--start-seconds)*6deg));
 }

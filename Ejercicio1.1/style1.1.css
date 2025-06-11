@@ -1,14 +1,3 @@
-@keyframes rotateClock {
-    from {
-        transform:rotate(0deg);
-    }
-
-    to {
-        transform: rotate(360deg);
-    }
-
-}
-
 #hour-12 {
     transform: rotate(0deg);
 }
@@ -58,22 +47,13 @@
 }
 
 #segundero {
-    animation-duration: 60s;
-    animation-name: rotateClock;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
+    transform: rotate(228deg);
 }
 
 #minutero {
-    animation-duration: 3600s;
-    animation-name: rotateClock;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
+    transform: rotate(24deg);
 }
 
 #hora {
-    animation-duration: 43200s;
-    animation-name: rotateClock;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
+    transform: rotate(330deg);
 }
